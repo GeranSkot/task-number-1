@@ -2,6 +2,7 @@ package com.Aleksey;
 import java.util.*;
 
 public class Main {
+
     public static void main(String[] args) {
         int number;
         System.out.print("enter the digit: ");
@@ -25,7 +26,6 @@ public class Main {
         } else {
             System.out.println("smt going wrong");
         }
-
     }
 }
 
