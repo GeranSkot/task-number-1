@@ -4,7 +4,7 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         int number;
-        System.out.print("ENTER digit: ");
+        System.out.print("enter the digit: ");
         Scanner numb = new Scanner(System.in);
         if (numb.hasNextInt()) {
             number = numb.nextInt();
@@ -23,7 +23,7 @@ public class Main {
                 System.out.println("not even");
             }
         } else {
-            System.out.println("no boy, mm. smt going wrong");
+            System.out.println("smt going wrong");
         }
 
     }
